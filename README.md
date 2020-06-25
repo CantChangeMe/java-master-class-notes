@@ -1,10 +1,10 @@
 # java-master-class-notes
 
-Java Master class note:
 
 Installing java for windows:
 
 installing Amazon correto(JDK for windows )
+
 
 1.Default whole number used by java is int.int is recommended for whole numbers.
 byte byyeDiviedByIntValue = (int)(maxByteValue/2);// typecasted to remove compilation error.
@@ -49,7 +49,31 @@ We can overload static and instance methods
 
 12.Method overloading rules:
 Must have:
-	#same method name
-	#diffent parameters
-
+<pre>
+	same method name
+	diffent parameters
+</pre>
 May or may not have:
+	<pre>
+	1.different return types
+	2.different accesss modifiers
+	3.throw different checked or unchecked exception.
+	</pre>
+13:Method overriding also known as runtime polymorphism or dyanamic method dispatch because method to be invoked is decided at runtime by JVM.
+Best practice to use @Override so that compiler can throw error if overriding rules are followed.
+
+14.Cant override static methods only instace methods can be overridden.
+
+15.Method overriding rules:
+<pre>
+	1.Must have same name and arguments.
+	2.Return type must be subclass of parent class method.
+	3.Can not have lower access modifier. 
+</pre>
+
+
+
+
+
+
+
