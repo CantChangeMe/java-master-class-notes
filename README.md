@@ -82,7 +82,7 @@ Best practice to use @Override so that compiler can throw error if overriding ru
 	2.Return type must be subclass of parent class method.
 	3.Can not have lower access modifier. 
 </pre>
-
+<pre> 
 16.Few points related to overriding to keep in mind:
 
 	1.Only inherited methods can be overridden.
@@ -91,6 +91,7 @@ Best practice to use @Override so that compiler can throw error if overriding ru
 	4.A subclass can call superclass version of overridden method.
 	i.e. super.getName();
 
+</pre>
 
 
 
