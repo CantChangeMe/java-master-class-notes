@@ -67,7 +67,7 @@ Must have:
 May or may not have:
 	1.different return types
 	2.different accesss modifiers
-	3.throw different checked or unchecked exception.
+	3.throw different checked or unchecked exception. 
 </pre>
 <pre>
 13:Method overriding also known as runtime polymorphism or dyanamic method dispatch because method to be invoked is decided at runtime by JVM.
@@ -76,12 +76,20 @@ Best practice to use @Override so that compiler can throw error if overriding ru
 <pre>
 14.Cant override static methods only instace methods can be overridden.
 </pre>
-<pre>
+<pre> 
 15.Method overriding rules:
 	1.Must have same name and arguments.
 	2.Return type must be subclass of parent class method.
 	3.Can not have lower access modifier. 
 </pre>
+
+16.Few points related to overriding to keep in mind:
+
+	1.Only inherited methods can be overridden.
+	2.Constructors and private methods can not be overridden.
+	3.Final methods can not be overridden.
+	4.A subclass can call superclass version of overridden method.
+	i.e. super.getName();
 
 
 
