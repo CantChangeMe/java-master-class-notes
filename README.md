@@ -100,7 +100,7 @@ Best practice to use @Override so that compiler can throw error if overriding ru
 		They are created using "new" keyword.That means any variable created using "new" keyword will be reference type.
 		
 		int [] myIntArray = new int [5];
-		here myIntArray is reference type.
+		Here myIntArray is reference type.
 	Value types:
 		Primitive types are value type.
 		int myIntVale =5;
