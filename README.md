@@ -107,7 +107,8 @@ Best practice to use @Override so that compiler can throw error if overriding ru
 		Here myIntValue is value type.
 		
 </pre>
-
-
+<pre>
+18.Interfaces in java are abstract by defintion abstract.
+</pre>
 
 
